@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width"> 
+		<meta name="author" content="Kirk Sandstrom">
+	  	<title>Assign2 Part 3</title> <!-- Change for each assignment -->
+	  	<link rel="stylesheet" href="./css/styles.css?v=1.0">
+	</head>
+	<body>
+		<!-- Creates header -->
+		<header> 
+			<div class="container">
+				<div id="branding">
+					<a href= "./index.html"><h1>Kirk's <span id="it604">IT604</span> HomePage</h1></a>
+				</div>
+			</div>
+		</header>
+		<!-- Main assignment content goes here -->
+		<main>
+			<div class="container">
+
+				<h3>Form 1 - Method = Get</h3>
+				<form action="assignment2part3result.html.php" method="get">
+					<label for="firstnameID">First name:</label>
+					<input type="text" name="firstname" id="firstnameID">
+					<br>
+
+					<label for="lastnameID">Last name:</label>
+					<input type="text" name="lastname" id="lastnameID">
+					<br>
+
+					<label for="catOrDogID1">Are you a cat or dog person?:</label><br>
+					<input type="radio" name="catOrDog" ID="catOrDogID1" value="Cat" checked> Cat<br>
+					<input type="radio" name="catOrDog" ID="catOrDogID2" value="Dog"> Dog<br>
+					<input type="radio" name="catOrDog" ID="catOrDogID3" value="How about both?"> How about both?
+					<br>
+
+					<label for="yearID">Pick a year before 2000:</label><br>
+  					<input type="date" name="year" ID="yearID" max="1999-12-31"><br>
+
+					<input type="submit" value="Go">
+				</form>
+
+				<h3>Form 2 - Method = Post</h3>
+				<form action="assignment2part3result.html.php" method="post">
+					<label for="usernameID">User Name:</label>
+ 					<input type="text" name="username" ID="usernameID"> <br>
+
+					<label for="pswID">Password:</label>
+					<input type="password" name="psw" ID=pswID>
+					<br>
+
+					<label for="foodID1">Check off some of your favorite foods:</label><br>
+					<input type="checkbox" name="food1" ID="foodID1" value="Pizza"> Pizza<br>
+				 	<input type="checkbox" name="food2" ID="foodID2" value="Mexican"> Mexican<br>
+				 	<input type="checkbox" name="food3" ID="foodID3" value="Burgers"> Burgers<br>
+				 	<input type="checkbox" name="food4" ID="foodID4" value="Pasta"> Pasta<br>
+				 	<input type="checkbox" name="food5" ID="foodID5" value="Steak"> Steak<br>
+
+					<label for="favColorID">Enter/pick your favorite color:</label><br>
+  					<input type="color" name="favcolor" ID="favColorID"><br>
+
+					<input type="submit" value="Go">
+				</form>
+
+				<div>
+   					<a href="http://validator.w3.org/check?uri=referer">Validate HTML</a><br />
+				</div>
+			</div>
+		</main>
+		<!-- Creates footer -->
+		<footer> 
+			<p>Kirk Sandstrom, 2018</p>
+		</footer>
+	</body>
+</html>

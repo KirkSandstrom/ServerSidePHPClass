@@ -1,0 +1,99 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+
+	padding:0;
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+/* Header */
+header{
+	background: #464f51;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header nav a{
+	text-transform: uppercase;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header span{
+	color: #89CE94;
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+
+header a:hover{
+	color: #89CE94;
+}
+
+/* Hero */
+#hero{
+	min-height: 400px;
+	background: url("../img/hero.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #464f51;
+	text-align: center;
+}
+
+#multiplicationTable{
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#multiplicationTable th, .y-label{
+	background: #89CE94; 
+}
+
+#multiplicationTable th, #multiplicationTable td{
+	border: 1px solid #ddd;
+    padding: 10px;
+}
